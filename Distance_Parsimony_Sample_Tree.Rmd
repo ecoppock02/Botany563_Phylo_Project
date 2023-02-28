@@ -1,0 +1,48 @@
+---
+title: "Distance_Parsimony_CL"
+author: "Ellie Coppock"
+date: "2023-02-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Install packages
+```{r}
+install.packages("adegenet", dep=TRUE)
+install.packages("phangorn", dep=TRUE)
+```
+Call up packages
+```{r}
+library(ape)
+library(adegenet)
+library(phangorn)
+```
+Loading in sample data
+```{r}
+dna <- fasta2DNAbin(file="http://adegenet.r-forge.r-project.org/files/usflu.fasta")
+```
+Computing genetic distances - Uses specific model of evolution 
+(Use ?command to see different models of evolution)
+```{r}
+D <- dist.dna(dna, model="TN93")
+```
+Getting NJ Tree
+```{r}
+tre <- nj(D)
+```
+
+ladderize: gets ladder structure to tree by rearranging internal structure
+```{r}
+tre <- ladderize(tre)
+```
+plot final tree
+```{r}
+plot(tre, cex=.6)
+title("A simple NJ tree")
+```
+
+
+

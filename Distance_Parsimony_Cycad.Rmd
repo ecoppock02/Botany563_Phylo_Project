@@ -1,0 +1,50 @@
+---
+title: "Distance_Parsimony_Cycad"
+author: "Ellie Coppock"
+date: "2023-02-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Make sure packages are installed and called up
+```{r}
+#Installation 
+install.packages("adegenet", dep=TRUE)
+install.packages("phangorn", dep=TRUE)
+
+#Call Packages
+library(ape)
+library(adegenet)
+library(phangorn)
+```
+
+Load in data files
+```{r}
+dna <- fasta2DNAbin(file="Cycad_Seq_ALIGNED.fasta")
+
+```
+
+Calculate genetic differences
+```{r}
+D <- dist.dna(dna, model="TN93")
+```
+
+NJ Tree
+```{r}
+tre <- nj(D)
+```
+
+Ladderize
+```{r}
+tre <- ladderize(tre)
+```
+
+Plot Tree
+```{r}
+plot(tre, cex=.6)
+title("A simple NJ tree")
+```
+
