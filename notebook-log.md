@@ -20,3 +20,5 @@ I've recieved more data and will be using it in an updated tree shortly.
 
 Maximum likelyhood tree made with some of the new data I recieved from my
 lab. Will be making changes to include new data with previous steps.
+I chose IQtree as the ML method because of the ability to customize on
+IQtree 2. 
