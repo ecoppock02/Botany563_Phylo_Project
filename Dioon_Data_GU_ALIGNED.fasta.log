@@ -1,0 +1,456 @@
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Ellies-MacBook-Air.local (AVX2, FMA3, 8 GB RAM)
+Command: software/iqtree-1.6.12-MacOSX/bin/iqtree -s Dioon_Data_GU_ALIGNED.fasta
+Seed:    341804 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 23 13:58:09 2023
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Dioon_Data_GU_ALIGNED.fasta ... Fasta format detected
+NOTE: Change sequence name 'Dioon califanoi | GU807189.1' -> Dioon_califanoi_|_GU807189.1
+NOTE: Change sequence name 'Dioon angustifolium | GU807188.1' -> Dioon_angustifolium_|_GU807188.1
+NOTE: Change sequence name 'Dioon tomasellii | GU807416.1' -> Dioon_tomasellii_|_GU807416.1
+NOTE: Change sequence name 'Dioon stevensonii | GU807415.1' -> Dioon_stevensonii_|_GU807415.1
+NOTE: Change sequence name 'Dioon spinulosum | GU807414.1' -> Dioon_spinulosum_|_GU807414.1
+NOTE: Change sequence name 'Dioon sonorense | GU807413.1' -> Dioon_sonorense_|_GU807413.1
+NOTE: Change sequence name 'Dioon purpusii | GU807412.1' -> Dioon_purpusii_|_GU807412.1
+NOTE: Change sequence name 'Dioon merolae | GU807411.1' -> Dioon_merolae_|_GU807411.1
+NOTE: Change sequence name 'Dioon mejiae | GU807410.1' -> Dioon_mejiae_|_GU807410.1
+NOTE: Change sequence name 'Dioon holmgrenii | GU807409.1' -> Dioon_holmgrenii_|_GU807409.1
+NOTE: Change sequence name 'Dioon edule | GU807408.1' -> Dioon_edule_|_GU807408.1
+NOTE: Change sequence name 'Dioon caputoi | GU807407.1' -> Dioon_caputoi_|_GU807407.1
+NOTE: Change sequence name 'Dioon argenteum | GU807406.1' -> Dioon_argenteum_|_GU807406.1
+NOTE: Change sequence name 'Dioon angustifolium | GU807405.1' -> Dioon_angustifolium_|_GU807405.1
+NOTE: Change sequence name 'Dioon tomasellii | GU807250.1' -> Dioon_tomasellii_|_GU807250.1
+NOTE: Change sequence name 'Dioon edule | GU807244.1' -> Dioon_edule_|_GU807244.1
+NOTE: Change sequence name 'Dioon califanoi | GU807242.1' -> Dioon_califanoi_|_GU807242.1
+NOTE: Change sequence name 'Dioon stevensonii | GU807249.1' -> Dioon_stevensonii_|_GU807249.1
+NOTE: Change sequence name 'Dioon purpusii | GU807247.1' -> Dioon_purpusii_|_GU807247.1
+NOTE: Change sequence name 'Dioon holmgrenii | GU807245.1' -> Dioon_holmgrenii_|_GU807245.1
+NOTE: Change sequence name 'Dioon caputoi | GU807243.1' -> Dioon_caputoi_|_GU807243.1
+NOTE: Change sequence name 'Dioon argenteum | GU807241.1' -> Dioon_argenteum_|_GU807241.1
+NOTE: Change sequence name 'Dioon angustifolium | GU807240.1' -> Dioon_angustifolium_|_GU807240.1
+NOTE: Change sequence name 'Dioon stevensonii | GU807272.1' -> Dioon_stevensonii_|_GU807272.1
+NOTE: Change sequence name 'Dioon rzedowskii | GU807268.1' -> Dioon_rzedowskii_|_GU807268.1
+NOTE: Change sequence name 'Dioon merolae | GU807266.1' -> Dioon_merolae_|_GU807266.1
+NOTE: Change sequence name 'Dioon holmgrenii | GU807264.1' -> Dioon_holmgrenii_|_GU807264.1
+NOTE: Change sequence name 'Dioon caputoi | GU807262.1' -> Dioon_caputoi_|_GU807262.1
+NOTE: Change sequence name 'Dioon argenteum | GU807260.1' -> Dioon_argenteum_|_GU807260.1
+NOTE: Change sequence name 'Dioon angustifolium | GU807259.1' -> Dioon_angustifolium_|_GU807259.1
+NOTE: Change sequence name 'Dioon tomasellii | GU807134.1' -> Dioon_tomasellii_|_GU807134.1
+NOTE: Change sequence name 'Dioon stevensonii | GU807133.1' -> Dioon_stevensonii_|_GU807133.1
+NOTE: Change sequence name 'Dioon spinulosum | GU807132.1' -> Dioon_spinulosum_|_GU807132.1
+NOTE: Change sequence name 'Dioon sonorense | GU807131.1' -> Dioon_sonorense_|_GU807131.1
+NOTE: Change sequence name 'Dioon rzedowskii | GU807130.1' -> Dioon_rzedowskii_|_GU807130.1
+NOTE: Change sequence name 'Dioon purpusii | GU807129.1' -> Dioon_purpusii_|_GU807129.1
+NOTE: Change sequence name 'Dioon merolae | GU807128.1' -> Dioon_merolae_|_GU807128.1
+NOTE: Change sequence name 'Dioon mejiae | GU807127.1' -> Dioon_mejiae_|_GU807127.1
+NOTE: Change sequence name 'Dioon holmgrenii | GU807126.1' -> Dioon_holmgrenii_|_GU807126.1
+NOTE: Change sequence name 'Dioon edule | GU807125.1' -> Dioon_edule_|_GU807125.1
+NOTE: Change sequence name 'Dioon caputoi | GU807124.1' -> Dioon_caputoi_|_GU807124.1
+NOTE: Change sequence name 'Dioon califanoi | GU807123.1' -> Dioon_califanoi_|_GU807123.1
+NOTE: Change sequence name 'Dioon argenteum | GU807122.1' -> Dioon_argenteum_|_GU807122.1
+NOTE: Change sequence name 'Dioon angustifolium | GU807121.1' -> Dioon_angustifolium_|_GU807121.1
+NOTE: Change sequence name 'Dioon stevensonii | GU807195.1' -> Dioon_stevensonii_|_GU807195.1
+NOTE: Change sequence name 'Dioon tomasellii | GU807194.1' -> Dioon_tomasellii_|_GU807194.1
+NOTE: Change sequence name 'Dioon spinulosum | GU807193.1' -> Dioon_spinulosum_|_GU807193.1
+NOTE: Change sequence name 'Dioon sonorense | GU807192.1' -> Dioon_sonorense_|_GU807192.1
+NOTE: Change sequence name 'Dioon merolae | GU807191.1' -> Dioon_merolae_|_GU807191.1
+NOTE: Change sequence name 'Dioon caputoi | GU807190.1' -> Dioon_caputoi_|_GU807190.1
+Alignment most likely contains DNA/RNA sequences
+Alignment has 50 sequences with 799 columns, 519 distinct patterns
+523 parsimony-informative, 26 singleton sites, 250 constant sites
+WARNING: Some sequence names are changed as follows:
+Dioon_califanoi_|_GU807189.1 -> Dioon_califanoi___GU807189.1
+Dioon_angustifolium_|_GU807188.1 -> Dioon_angustifolium___GU807188.1
+Dioon_tomasellii_|_GU807416.1 -> Dioon_tomasellii___GU807416.1
+Dioon_stevensonii_|_GU807415.1 -> Dioon_stevensonii___GU807415.1
+Dioon_spinulosum_|_GU807414.1 -> Dioon_spinulosum___GU807414.1
+Dioon_sonorense_|_GU807413.1 -> Dioon_sonorense___GU807413.1
+Dioon_purpusii_|_GU807412.1 -> Dioon_purpusii___GU807412.1
+Dioon_merolae_|_GU807411.1 -> Dioon_merolae___GU807411.1
+Dioon_mejiae_|_GU807410.1 -> Dioon_mejiae___GU807410.1
+Dioon_holmgrenii_|_GU807409.1 -> Dioon_holmgrenii___GU807409.1
+Dioon_edule_|_GU807408.1 -> Dioon_edule___GU807408.1
+Dioon_caputoi_|_GU807407.1 -> Dioon_caputoi___GU807407.1
+Dioon_argenteum_|_GU807406.1 -> Dioon_argenteum___GU807406.1
+Dioon_angustifolium_|_GU807405.1 -> Dioon_angustifolium___GU807405.1
+Dioon_tomasellii_|_GU807250.1 -> Dioon_tomasellii___GU807250.1
+Dioon_edule_|_GU807244.1 -> Dioon_edule___GU807244.1
+Dioon_califanoi_|_GU807242.1 -> Dioon_califanoi___GU807242.1
+Dioon_stevensonii_|_GU807249.1 -> Dioon_stevensonii___GU807249.1
+Dioon_purpusii_|_GU807247.1 -> Dioon_purpusii___GU807247.1
+Dioon_holmgrenii_|_GU807245.1 -> Dioon_holmgrenii___GU807245.1
+Dioon_caputoi_|_GU807243.1 -> Dioon_caputoi___GU807243.1
+Dioon_argenteum_|_GU807241.1 -> Dioon_argenteum___GU807241.1
+Dioon_angustifolium_|_GU807240.1 -> Dioon_angustifolium___GU807240.1
+Dioon_stevensonii_|_GU807272.1 -> Dioon_stevensonii___GU807272.1
+Dioon_rzedowskii_|_GU807268.1 -> Dioon_rzedowskii___GU807268.1
+Dioon_merolae_|_GU807266.1 -> Dioon_merolae___GU807266.1
+Dioon_holmgrenii_|_GU807264.1 -> Dioon_holmgrenii___GU807264.1
+Dioon_caputoi_|_GU807262.1 -> Dioon_caputoi___GU807262.1
+Dioon_argenteum_|_GU807260.1 -> Dioon_argenteum___GU807260.1
+Dioon_angustifolium_|_GU807259.1 -> Dioon_angustifolium___GU807259.1
+Dioon_tomasellii_|_GU807134.1 -> Dioon_tomasellii___GU807134.1
+Dioon_stevensonii_|_GU807133.1 -> Dioon_stevensonii___GU807133.1
+Dioon_spinulosum_|_GU807132.1 -> Dioon_spinulosum___GU807132.1
+Dioon_sonorense_|_GU807131.1 -> Dioon_sonorense___GU807131.1
+Dioon_rzedowskii_|_GU807130.1 -> Dioon_rzedowskii___GU807130.1
+Dioon_purpusii_|_GU807129.1 -> Dioon_purpusii___GU807129.1
+Dioon_merolae_|_GU807128.1 -> Dioon_merolae___GU807128.1
+Dioon_mejiae_|_GU807127.1 -> Dioon_mejiae___GU807127.1
+Dioon_holmgrenii_|_GU807126.1 -> Dioon_holmgrenii___GU807126.1
+Dioon_edule_|_GU807125.1 -> Dioon_edule___GU807125.1
+Dioon_caputoi_|_GU807124.1 -> Dioon_caputoi___GU807124.1
+Dioon_califanoi_|_GU807123.1 -> Dioon_califanoi___GU807123.1
+Dioon_argenteum_|_GU807122.1 -> Dioon_argenteum___GU807122.1
+Dioon_angustifolium_|_GU807121.1 -> Dioon_angustifolium___GU807121.1
+Dioon_stevensonii_|_GU807195.1 -> Dioon_stevensonii___GU807195.1
+Dioon_tomasellii_|_GU807194.1 -> Dioon_tomasellii___GU807194.1
+Dioon_spinulosum_|_GU807193.1 -> Dioon_spinulosum___GU807193.1
+Dioon_sonorense_|_GU807192.1 -> Dioon_sonorense___GU807192.1
+Dioon_merolae_|_GU807191.1 -> Dioon_merolae___GU807191.1
+Dioon_caputoi_|_GU807190.1 -> Dioon_caputoi___GU807190.1
+
+                                  Gap/Ambiguity  Composition  p-value
+   1  Dioon_califanoi___GU807189.1       11.51%    failed      1.58%
+   2  Dioon_angustifolium___GU807188.1   12.39%    passed     10.68%
+   3  Dioon_tomasellii___GU807416.1      54.57%    passed      5.92%
+   4  Dioon_stevensonii___GU807415.1     54.57%    passed      5.92%
+   5  Dioon_spinulosum___GU807414.1      54.57%    passed      5.92%
+   6  Dioon_sonorense___GU807413.1       54.57%    passed      5.92%
+   7  Dioon_purpusii___GU807412.1        54.57%    passed      5.92%
+   8  Dioon_merolae___GU807411.1         54.57%    passed      5.92%
+   9  Dioon_mejiae___GU807410.1          55.07%    failed      5.00%
+  10  Dioon_holmgrenii___GU807409.1      54.69%    passed      5.11%
+  11  Dioon_edule___GU807408.1           54.57%    passed      5.92%
+  12  Dioon_caputoi___GU807407.1         54.57%    passed      5.92%
+  13  Dioon_argenteum___GU807406.1       54.57%    passed      5.92%
+  14  Dioon_angustifolium___GU807405.1   54.57%    passed      5.92%
+  15  Dioon_tomasellii___GU807250.1      46.31%    failed      4.13%
+  16  Dioon_edule___GU807244.1           46.43%    passed      6.83%
+  17  Dioon_califanoi___GU807242.1       46.43%    failed      4.26%
+  18  Dioon_stevensonii___GU807249.1     46.18%    failed      3.95%
+  19  Dioon_purpusii___GU807247.1        46.56%    passed      5.19%
+  20  Dioon_holmgrenii___GU807245.1      46.43%    failed      4.26%
+  21  Dioon_caputoi___GU807243.1         46.43%    failed      4.26%
+  22  Dioon_argenteum___GU807241.1       46.43%    failed      4.26%
+  23  Dioon_angustifolium___GU807240.1   46.18%    failed      3.67%
+  24  Dioon_stevensonii___GU807272.1     34.17%    passed     35.71%
+  25  Dioon_rzedowskii___GU807268.1      34.17%    passed     35.71%
+  26  Dioon_merolae___GU807266.1         34.17%    passed     30.21%
+  27  Dioon_holmgrenii___GU807264.1      34.17%    passed     30.21%
+  28  Dioon_caputoi___GU807262.1         34.17%    passed     25.15%
+  29  Dioon_argenteum___GU807260.1       34.17%    passed     30.21%
+  30  Dioon_angustifolium___GU807259.1   34.17%    passed     30.21%
+  31  Dioon_tomasellii___GU807134.1      40.18%    passed     79.74%
+  32  Dioon_stevensonii___GU807133.1     39.92%    passed     77.22%
+  33  Dioon_spinulosum___GU807132.1      39.92%    passed     75.49%
+  34  Dioon_sonorense___GU807131.1       39.92%    passed     77.22%
+  35  Dioon_rzedowskii___GU807130.1      39.92%    passed     77.22%
+  36  Dioon_purpusii___GU807129.1        39.92%    passed     77.22%
+  37  Dioon_merolae___GU807128.1         39.92%    passed     77.22%
+  38  Dioon_mejiae___GU807127.1          39.92%    passed     77.22%
+  39  Dioon_holmgrenii___GU807126.1      39.92%    passed     77.22%
+  40  Dioon_edule___GU807125.1           40.18%    passed     83.37%
+  41  Dioon_caputoi___GU807124.1         39.92%    passed     77.22%
+  42  Dioon_califanoi___GU807123.1       40.43%    passed     77.20%
+  43  Dioon_argenteum___GU807122.1       39.92%    passed     77.22%
+  44  Dioon_angustifolium___GU807121.1   40.80%    passed     80.30%
+  45  Dioon_stevensonii___GU807195.1     11.14%    failed      1.09%
+  46  Dioon_tomasellii___GU807194.1      10.76%    failed      2.42%
+  47  Dioon_spinulosum___GU807193.1      10.26%    failed      4.81%
+  48  Dioon_sonorense___GU807192.1       10.89%    failed      2.56%
+  49  Dioon_merolae___GU807191.1         11.64%    failed      2.14%
+  50  Dioon_caputoi___GU807190.1         13.52%    failed      1.96%
+WARNING: 12 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                              39.30%  15 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Dioon_stevensonii___GU807415.1 is identical to Dioon_tomasellii___GU807416.1 but kept for subsequent analysis
+NOTE: Dioon_holmgrenii___GU807245.1 is identical to Dioon_califanoi___GU807242.1 but kept for subsequent analysis
+NOTE: Dioon_holmgrenii___GU807264.1 is identical to Dioon_merolae___GU807266.1 but kept for subsequent analysis
+NOTE: Dioon_sonorense___GU807131.1 is identical to Dioon_stevensonii___GU807133.1 but kept for subsequent analysis
+NOTE: 19 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Dioon_spinulosum___GU807414.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_sonorense___GU807413.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_purpusii___GU807412.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_merolae___GU807411.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_edule___GU807408.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_caputoi___GU807407.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_argenteum___GU807406.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_angustifolium___GU807405.1 (identical to Dioon_tomasellii___GU807416.1) is ignored but added at the end
+NOTE: Dioon_caputoi___GU807243.1 (identical to Dioon_califanoi___GU807242.1) is ignored but added at the end
+NOTE: Dioon_argenteum___GU807241.1 (identical to Dioon_califanoi___GU807242.1) is ignored but added at the end
+NOTE: Dioon_argenteum___GU807260.1 (identical to Dioon_merolae___GU807266.1) is ignored but added at the end
+NOTE: Dioon_angustifolium___GU807259.1 (identical to Dioon_merolae___GU807266.1) is ignored but added at the end
+NOTE: Dioon_rzedowskii___GU807130.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+NOTE: Dioon_purpusii___GU807129.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+NOTE: Dioon_merolae___GU807128.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+NOTE: Dioon_mejiae___GU807127.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+NOTE: Dioon_holmgrenii___GU807126.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+NOTE: Dioon_caputoi___GU807124.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+NOTE: Dioon_argenteum___GU807122.1 (identical to Dioon_stevensonii___GU807133.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to Dioon_Data_GU_ALIGNED.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+NOTE: ModelFinder requires 5 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 799) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            3819.687     59  7757.374     7766.955     8033.693
+  2  JC+I          3818.759     60  7757.519     7767.438     8038.521
+  3  JC+G4         3817.483     60  7754.967     7764.885     8035.968
+  4  JC+I+G4       3818.525     61  7759.050     7769.313     8044.735
+  5  JC+R2         3817.450     61  7756.900     7767.164     8042.585
+  6  JC+R3         3810.363     63  7746.727     7757.698     8041.778
+  7  JC+R4         3809.973     65  7749.946     7761.652     8054.365
+ 14  F81+F         3799.141     62  7722.281     7732.895     8012.650
+ 15  F81+F+I       3798.403     63  7722.806     7733.777     8017.857
+ 16  F81+F+G4      3797.413     63  7720.826     7731.797     8015.878
+ 17  F81+F+I+G4    3798.244     64  7724.489     7735.824     8024.224
+ 18  F81+F+R2      3797.354     64  7722.707     7734.042     8022.442
+ 19  F81+F+R3      3790.260     66  7712.520     7724.602     8021.622
+ 20  F81+F+R4      3789.176     68  7714.353     7727.208     8032.821
+ 27  K2P           3771.183     60  7662.365     7672.284     7943.367
+ 28  K2P+I         3769.832     61  7661.665     7671.928     7947.350
+ 29  K2P+G4        3767.807     61  7657.615     7667.878     7943.300
+ 30  K2P+I+G4      3768.627     62  7661.254     7671.868     7951.622
+ 31  K2P+R2        3767.675     62  7659.349     7669.963     7949.718
+ 32  K2P+R3        3761.371     64  7650.743     7662.078     7950.478
+ 40  HKY+F         3742.501     63  7611.003     7621.974     7906.055
+ 41  HKY+F+I       3741.433     64  7610.867     7622.202     7910.602
+ 42  HKY+F+G4      3739.618     64  7607.237     7618.572     7906.972
+ 43  HKY+F+I+G4    3740.341     65  7610.681     7622.386     7915.100
+ 44  HKY+F+R2      3739.473     65  7608.945     7620.650     7913.364
+ 45  HKY+F+R3      3733.121     67  7600.242     7612.707     7914.027
+ 53  TNe           3770.111     61  7662.223     7672.486     7947.908
+ 54  TNe+I         3768.730     62  7661.461     7672.075     7951.829
+ 55  TNe+G4        3766.612     62  7657.224     7667.838     7947.592
+ 56  TNe+I+G4      3767.251     63  7660.501     7671.473     7955.553
+ 57  TNe+R2        3766.346     63  7658.691     7669.662     7953.743
+ 58  TNe+R3        3760.105     65  7650.210     7661.915     7954.628
+ 66  TN+F          3741.862     64  7611.723     7623.058     7911.458
+ 67  TN+F+I        3740.732     65  7611.463     7623.168     7915.882
+ 68  TN+F+G4       3738.904     65  7607.808     7619.514     7912.227
+ 69  TN+F+I+G4     3739.451     66  7610.902     7622.984     7920.004
+ 70  TN+F+R2       3738.667     66  7609.334     7621.416     7918.436
+ 71  TN+F+R3       3732.347     68  7600.693     7613.548     7919.162
+ 79  K3P           3771.138     61  7664.275     7674.539     7949.960
+ 80  K3P+I         3769.743     62  7663.487     7674.101     7953.855
+ 81  K3P+G4        3767.623     62  7659.245     7669.859     7949.614
+ 82  K3P+I+G4      3768.119     63  7662.238     7673.209     7957.289
+ 83  K3P+R2        3767.187     63  7660.374     7671.345     7955.426
+ 84  K3P+R3        3761.007     65  7652.013     7663.719     7956.432
+ 92  K3Pu+F        3741.389     64  7610.779     7622.114     7910.514
+ 93  K3Pu+F+I      3740.167     65  7610.334     7622.040     7914.753
+ 94  K3Pu+F+G4     3738.063     65  7606.127     7617.832     7910.545
+ 95  K3Pu+F+I+G4   3738.546     66  7609.092     7621.174     7918.194
+ 96  K3Pu+F+R2     3737.644     66  7607.288     7619.370     7916.390
+ 97  K3Pu+F+R3     3731.515     68  7599.029     7611.884     7917.498
+105  TPM2+F        3741.433     64  7610.867     7622.202     7910.602
+106  TPM2+F+I      3740.337     65  7610.674     7622.379     7915.092
+107  TPM2+F+G4     3738.441     65  7606.881     7618.586     7911.300
+108  TPM2+F+I+G4   3738.905     66  7609.811     7621.893     7918.912
+109  TPM2+F+R2     3737.955     66  7607.910     7619.992     7917.011
+110  TPM2+F+R3     3731.509     68  7599.018     7611.872     7917.486
+118  TPM2u+F       3741.433     64  7610.866     7622.201     7910.601
+119  TPM2u+F+I     3740.337     65  7610.674     7622.380     7915.093
+120  TPM2u+F+G4    3738.444     65  7606.887     7618.592     7911.306
+121  TPM2u+F+I+G4  3738.883     66  7609.766     7621.848     7918.868
+122  TPM2u+F+R2    3737.861     66  7607.722     7619.804     7916.824
+123  TPM2u+F+R3    3731.445     68  7598.890     7611.745     7917.359
+131  TPM3+F        3742.040     64  7612.080     7623.415     7911.815
+132  TPM3+F+I      3741.097     65  7612.194     7623.900     7916.613
+133  TPM3+F+G4     3739.483     65  7608.966     7620.672     7913.385
+134  TPM3+F+I+G4   3739.875     66  7611.750     7623.832     7920.852
+135  TPM3+F+R2     3738.837     66  7609.673     7621.755     7918.775
+136  TPM3+F+R3     3732.480     68  7600.959     7613.814     7919.428
+144  TPM3u+F       3742.040     64  7612.079     7623.414     7911.814
+145  TPM3u+F+I     3741.097     65  7612.195     7623.900     7916.613
+146  TPM3u+F+G4    3739.487     65  7608.974     7620.679     7913.392
+147  TPM3u+F+I+G4  3739.857     66  7611.714     7623.796     7920.816
+148  TPM3u+F+R2    3738.731     66  7609.462     7621.544     7918.564
+149  TPM3u+F+R3    3732.309     68  7600.617     7613.472     7919.086
+157  TIMe          3770.064     62  7664.129     7674.743     7954.497
+158  TIMe+I        3768.638     63  7663.277     7674.248     7958.328
+159  TIMe+G4       3766.452     63  7658.904     7669.875     7953.956
+160  TIMe+I+G4     3766.804     64  7661.608     7672.943     7961.343
+161  TIMe+R2       3760.635     64  7649.270     7660.606     7949.006
+162  TIMe+R3       3759.432     66  7650.864     7662.946     7959.966
+170  TIM+F         3740.730     65  7611.460     7623.166     7915.879
+171  TIM+F+I       3739.431     66  7610.861     7622.943     7919.963
+172  TIM+F+G4      3737.330     66  7606.661     7618.743     7915.763
+173  TIM+F+I+G4    3737.654     67  7609.308     7621.774     7923.094
+174  TIM+F+R2      3731.545     67  7597.091     7609.556     7910.876
+175  TIM+F+R3      3730.422     69  7598.844     7612.095     7921.996
+183  TIM2e         3770.095     62  7664.190     7674.804     7954.559
+184  TIM2e+I       3768.725     63  7663.450     7674.421     7958.501
+185  TIM2e+G4      3766.601     63  7659.202     7670.173     7954.253
+186  TIM2e+I+G4    3766.937     64  7661.873     7673.208     7961.608
+187  TIM2e+R2      3760.444     64  7648.888     7660.224     7948.624
+188  TIM2e+R3      3759.451     66  7650.902     7662.984     7960.004
+196  TIM2+F        3740.821     65  7611.642     7623.348     7916.061
+197  TIM2+F+I      3739.635     66  7611.270     7623.352     7920.372
+198  TIM2+F+G4     3737.726     66  7607.451     7619.533     7916.553
+199  TIM2+F+I+G4   3738.029     67  7610.058     7622.523     7923.843
+200  TIM2+F+R2     3731.426     67  7596.851     7609.316     7910.636
+201  TIM2+F+R3     3730.433     69  7598.866     7612.117     7922.018
+209  TIM3e         3770.026     62  7664.052     7674.666     7954.421
+210  TIM3e+I       3768.540     63  7663.081     7674.052     7958.132
+211  TIM3e+G4      3766.079     63  7658.158     7669.130     7953.210
+212  TIM3e+I+G4    3766.388     64  7660.775     7672.111     7960.511
+213  TIM3e+R2      3760.050     64  7648.099     7659.434     7947.834
+214  TIM3e+R3      3759.063     66  7650.126     7662.208     7959.228
+222  TIM3+F        3741.367     65  7612.734     7624.439     7917.152
+223  TIM3+F+I      3740.360     66  7612.720     7624.802     7921.822
+224  TIM3+F+G4     3738.748     66  7609.496     7621.578     7918.598
+225  TIM3+F+I+G4   3739.014     67  7612.028     7624.494     7925.814
+226  TIM3+F+R2     3732.340     67  7598.679     7611.144     7912.464
+227  TIM3+F+R3     3731.411     69  7600.823     7614.074     7923.975
+235  TVMe          3771.035     63  7668.069     7679.041     7963.121
+236  TVMe+I        3769.476     64  7666.952     7678.287     7966.687
+237  TVMe+G4       3766.885     64  7661.770     7673.105     7961.505
+238  TVMe+I+G4     3767.134     65  7664.268     7675.974     7968.687
+239  TVMe+R2       3760.976     65  7651.952     7663.657     7956.370
+240  TVMe+R3       3759.914     67  7653.828     7666.294     7967.614
+248  TVM+F         3740.649     66  7613.297     7625.379     7922.399
+249  TVM+F+I       3739.548     67  7613.097     7625.562     7926.882
+250  TVM+F+G4      3737.552     67  7609.105     7621.570     7922.890
+251  TVM+F+I+G4    3737.800     68  7611.600     7624.455     7930.069
+252  TVM+F+R2      3731.199     68  7598.397     7611.252     7916.866
+253  TVM+F+R3      3730.141     70  7600.282     7613.936     7928.117
+261  SYM           3769.949     64  7667.897     7679.233     7967.633
+262  SYM+I         3768.386     65  7666.771     7678.477     7971.190
+263  SYM+G4        3765.709     65  7661.418     7673.123     7965.836
+264  SYM+I+G4      3765.966     66  7663.932     7676.014     7973.034
+265  SYM+R2        3759.864     66  7651.729     7663.811     7960.831
+266  SYM+R3        3758.717     68  7653.434     7666.288     7971.902
+274  GTR+F         3739.983     67  7613.965     7626.430     7927.751
+275  GTR+F+I       3738.802     68  7613.604     7626.459     7932.072
+276  GTR+F+G4      3736.814     68  7609.628     7622.483     7928.096
+277  GTR+F+I+G4    3737.026     69  7612.052     7625.303     7935.204
+278  GTR+F+R2      3730.556     69  7599.112     7612.363     7922.264
+279  GTR+F+R3      3729.405     71  7600.810     7614.873     7933.329
+Akaike Information Criterion:           TIM2+F+R2
+Corrected Akaike Information Criterion: TIM2+F+R2
+Bayesian Information Criterion:         HKY+F
+Best-fit model: HKY+F chosen according to BIC
+
+All model information printed to Dioon_Data_GU_ALIGNED.fasta.model.gz
+CPU time for ModelFinder: 5.847 seconds (0h:0m:5s)
+Wall-clock time for ModelFinder: 5.927 seconds (0h:0m:5s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3799.985
+2. Current log-likelihood: -3743.219
+3. Current log-likelihood: -3742.498
+Optimal log-likelihood: -3742.487
+Rate parameters:  A-C: 1.00000  A-G: 2.90741  A-T: 1.00000  C-G: 1.00000  C-T: 2.90741  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.196  G: 0.205  T: 0.286
+Parameters optimization took 3 rounds (0.016 sec)
+Computing ML distances based on estimated model parameters... 0.009 sec
+Computing BIONJ tree...
+0.006 seconds
+Log-likelihood of BIONJ tree: -3745.445
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.209 second
+Computing log-likelihood of 98 initial trees ... 0.332 seconds
+Current best score: -3737.477
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3737.268
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -3737.216
+Iteration 10 / LogL: -3737.216 / Time: 0h:0m:0s
+Iteration 20 / LogL: -3738.068 / Time: 0h:0m:1s
+Finish initializing candidate tree set (20)
+Current best tree score: -3737.216 / CPU time: 0.955
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -3737.112
+Iteration 30 / LogL: -3737.505 / Time: 0h:0m:1s (0h:0m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -3737.039
+Iteration 40 / LogL: -3737.270 / Time: 0h:0m:1s (0h:0m:4s left)
+Iteration 50 / LogL: -3746.019 / Time: 0h:0m:2s (0h:0m:4s left)
+Iteration 60 / LogL: -3737.275 / Time: 0h:0m:2s (0h:0m:3s left)
+Iteration 70 / LogL: -3737.751 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 80 / LogL: -3737.039 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 90 / LogL: -3744.588 / Time: 0h:0m:3s (0h:0m:1s left)
+Iteration 100 / LogL: -3737.188 / Time: 0h:0m:4s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 102: -3737.038
+Iteration 110 / LogL: -3737.274 / Time: 0h:0m:4s (0h:0m:3s left)
+Iteration 120 / LogL: -3737.110 / Time: 0h:0m:5s (0h:0m:3s left)
+Iteration 130 / LogL: -3737.217 / Time: 0h:0m:5s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 139: -3737.038
+Iteration 140 / LogL: -3737.298 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 150 / LogL: -3742.317 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 160 / LogL: -3737.297 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 170 / LogL: -4496.473 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 180 / LogL: -3752.769 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 190 / LogL: -3737.039 / Time: 0h:0m:7s (0h:0m:2s left)
+Iteration 200 / LogL: -3737.041 / Time: 0h:0m:8s (0h:0m:1s left)
+Iteration 210 / LogL: -3737.039 / Time: 0h:0m:8s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 214: -3737.038
+UPDATE BEST LOG-LIKELIHOOD: -3737.038
+Iteration 220 / LogL: -3737.270 / Time: 0h:0m:9s (0h:0m:3s left)
+Iteration 230 / LogL: -3737.141 / Time: 0h:0m:9s (0h:0m:3s left)
+Iteration 240 / LogL: -3738.728 / Time: 0h:0m:9s (0h:0m:3s left)
+Iteration 250 / LogL: -3742.564 / Time: 0h:0m:10s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 254: -3737.038
+Iteration 260 / LogL: -3737.142 / Time: 0h:0m:10s (0h:0m:3s left)
+Iteration 270 / LogL: -3746.059 / Time: 0h:0m:10s (0h:0m:3s left)
+Iteration 280 / LogL: -3737.142 / Time: 0h:0m:11s (0h:0m:3s left)
+Iteration 290 / LogL: -3737.654 / Time: 0h:0m:11s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 296: -3737.038
+BETTER TREE FOUND at iteration 298: -3737.038
+Iteration 300 / LogL: -3742.546 / Time: 0h:0m:12s (0h:0m:4s left)
+Iteration 310 / LogL: -3744.091 / Time: 0h:0m:12s (0h:0m:3s left)
+Iteration 320 / LogL: -3737.376 / Time: 0h:0m:13s (0h:0m:3s left)
+Iteration 330 / LogL: -3737.163 / Time: 0h:0m:13s (0h:0m:2s left)
+Iteration 340 / LogL: -3737.157 / Time: 0h:0m:13s (0h:0m:2s left)
+Iteration 350 / LogL: -3737.322 / Time: 0h:0m:14s (0h:0m:1s left)
+Iteration 360 / LogL: -3737.148 / Time: 0h:0m:14s (0h:0m:1s left)
+Iteration 370 / LogL: -3737.526 / Time: 0h:0m:14s (0h:0m:1s left)
+Iteration 380 / LogL: -3738.985 / Time: 0h:0m:15s (0h:0m:0s left)
+Iteration 390 / LogL: -3747.516 / Time: 0h:0m:15s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 399 ITERATIONS / Time: 0h:0m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3737.038
+Optimal log-likelihood: -3737.038
+Rate parameters:  A-C: 1.00000  A-G: 2.92261  A-T: 1.00000  C-G: 1.00000  C-T: 2.92261  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.196  G: 0.205  T: 0.286
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -3737.038
+Total tree length: 2.773
+
+Total number of iterations: 399
+CPU time used for tree search: 15.914 sec (0h:0m:15s)
+Wall-clock time used for tree search: 15.979 sec (0h:0m:15s)
+Total CPU time used: 15.960 sec (0h:0m:15s)
+Total wall-clock time used: 16.033 sec (0h:0m:16s)
+
+Analysis results written to: 
+  IQ-TREE report:                Dioon_Data_GU_ALIGNED.fasta.iqtree
+  Maximum-likelihood tree:       Dioon_Data_GU_ALIGNED.fasta.treefile
+  Likelihood distances:          Dioon_Data_GU_ALIGNED.fasta.mldist
+  Screen log file:               Dioon_Data_GU_ALIGNED.fasta.log
+
+Date and Time: Thu Mar 23 13:58:31 2023

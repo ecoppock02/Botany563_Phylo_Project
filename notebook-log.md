@@ -16,4 +16,7 @@ Code used "mafft Cycad_Seq.fasta > Cycad_Seq_ALIGNED.fasta"
 Output file seen in folder
 
 In R, a distance and parsimony tree was build using my data
-I've recieved more data and will be using it in an updated tree shortly. 
+I've recieved more data and will be using it in an updated tree shortly.
+
+Maximum likelyhood tree made with some of the new data I recieved from my
+lab. Will be making changes to include new data with previous steps.
