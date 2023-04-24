@@ -53,3 +53,11 @@ mb algaemb-mb.nex
 
 Note: again edited from my data/file name.
 
+I dont believe I will need to use this method for my data since I do not
+have a set with multiple genes. Using a toy data set I will:
+
+Use Mrbayes for each gene
+create a new file for my Mrbayes output with mbsum
+Next I will run BUCKy with all appropriate options
+Output will be a .out, .input, .gene, .cluster, .concordance, All labeled
+"Dioon_Data_BUCKy"
