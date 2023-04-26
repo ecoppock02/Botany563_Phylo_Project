@@ -1,8 +1,4 @@
 # Reproducibility Notebook 
-My data includes mostly Dioon cycads, an ancient plant genus mostly
-found in Mexico and that is critically endangered.
-
-FastQC ran on my raw data.
 
 ClustalW and TCoffee did not work with my mac. Instead, I downloaded MAFFT
 and used it on both the Primates data and my own. I also combined the
@@ -61,3 +57,39 @@ create a new file for my Mrbayes output with mbsum
 Next I will run BUCKy with all appropriate options
 Output will be a .out, .input, .gene, .cluster, .concordance, All labeled
 "Dioon_Data_BUCKy"
+
+#DATA
+
+My data includes mostly Dioon cycads, an ancient plant genus mostly
+found in Mexico and that is critically endangered. After changing my data
+halfway through the semester, the gene of interest is an intergenic spacer
+in the chloroplast. 
+
+#ALIGNMENT
+
+#MAFFT Alignment:
+
+I chose MAFFT as the first alignment tool due to the ease of download.
+This tool was easier to download than other methods.MAFFT is comparable to the accuracy of ClustalW and TCoffee while being
+considering faster. The ease of download and use when compared to ClustalW
+and TCoffee was also a factor in my choice.
+https://academic.oup.com/nar/article/30/14/3059/2904316
+
+MAFFT was downloaded from https://mafft.cbrc.jp/alignment/server/
+MAFFT folder moved to software folder. 
+
+I input my data file labeled "Dioon_Data_GU.fasta". My output result is
+"Dioon_Data_GU_ALIGNED.fasta"
+
+Input file can be found desktop/Botany563_Phylo_Project
+
+Commands used:
+
+mafft Dioon_Data_GU.fasta > Dioon_Data_GU_ALIGNED_MAFFT.fasta
+
+Output file saved in Botany563_Phylo_Project
+
+#MUSCLE Alignment:
+
+
+
