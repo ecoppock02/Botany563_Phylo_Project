@@ -1,0 +1,53 @@
+---
+title: "Distance_Parsimony_Dioon_Data"
+author: "Ellie Coppock"
+date: "2023-05-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Installing Packages
+```{r}
+install.packages("adegenet", dep=TRUE)
+install.packages("phangorn", dep=TRUE)
+
+# Loading Packages
+library(ape)
+library(adegenet)
+library(phangorn)
+```
+Loading Data
+```{r}
+Dioon_Data_MAFFT <- fasta2DNAbin(file="Dioon_Data_GU_ALIGNED_MAFFT.fasta")
+Dioon_Data_MUSCLE <- fasta2DNAbin(file= "Dioon_Data_GU_ALIGNED_MUSCLE.fasta")
+```
+Calculate Genetic Distances
+```{r}
+Dist_MAFFT <- dist.dna(Dioon_Data_MAFFT, model="K80")
+Dist_MUSCLE <- dist.dna(Dioon_Data_MUSCLE, model = "K80")
+```
+
+NJ Tree 
+```{r}
+DDMATree <- nj(Dist_MAFFT)
+DDMUTree <- nj(Dist_MUSCLE)
+```
+
+Ladderize
+```{r}
+DDMATree <- ladderize(DDMATree)
+DDMUTree <- ladderize(DDMUTree)
+```
+
+Plot Tree
+```{r}
+plot(DDMATree, cex=.3)
+title("Dioon Tree with MAFFT")
+
+plot(DDMUTree, cex=.3)
+title("Dioon Tree with MUSCLE")
+```
+
