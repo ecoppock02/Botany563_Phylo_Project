@@ -5,7 +5,8 @@
 My data includes mostly Dioon cycads, an ancient plant genus mostly
 found in Mexico and that is critically endangered. After changing my data
 halfway through the semester, the gene of interest is an intergenic spacer
-in the chloroplast. 
+in the chloroplast. Data is unpublished and provided by the McCulloh Lab
+at UW Madison, Botany Department.
 
 # ALIGNMENT
 
@@ -56,6 +57,7 @@ cd desktop/Botany563_Phylo_Project
 
 Output file saved in Botany563_Phylo_Project
 
+
 # Inference Tools
 
 # Maximum Likelyhood Inference:
@@ -83,10 +85,17 @@ software/iqtree-1.6.12-MacOSX/bin/iqtree -s Dioon_Data_GU_ALIGNED_MUSCLE.fasta
 
 Output files moved and saved in Botany563_Phylo_Project
 
+ML Trees visualized using iTOL for a more clean and clear tree visual.
+NEWICK format copied from treefile and used in the web application iTOL.
 
-# Distance and Parsimony Inference 
+# Distance Inference 
 
-I chose Distance
+I chose Distance because the increased accuracy compared to parsimony
+while still using R Studio, which is familiar to me and easy to use.
+I chose K80 as my model of evolution due to the different values given
+to transversions and transitions while also taking into account the
+structure of nucleotides.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC319072/
 
 R Studio is kept in the software folder.
 Working directory was set to Botany563_Phylo_Project
@@ -120,7 +129,8 @@ plot(DDMUTree, cex=.3)
 title("Dioon Tree with MUSCLE")
 
 R Markdown file saved to Botany563_Phylo_Project, Trees saved from R
-Markdown in Botany_Phylo_Project
+Markdown in Botany_Phylo_Project and changed from NEWICK format using
+web application iTOL. https://itol.embl.de/
 
 
 # Homework Commits
