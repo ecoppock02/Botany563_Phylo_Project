@@ -1,24 +1,16 @@
 ---
 title: "Distance_Parsimony_Dioon_Data"
 author: "Ellie Coppock"
-date: "2023-05-02"
-output: html_document
+date: '2023-05-02'
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Installing Packages
-```{r}
-install.packages("adegenet", dep=TRUE)
-install.packages("phangorn", dep=TRUE)
-
-# Loading Packages
-library(ape)
-library(adegenet)
-library(phangorn)
-```
 Loading Data
 ```{r}
 Dioon_Data_MAFFT <- fasta2DNAbin(file="Dioon_Data_GU_ALIGNED_MAFFT.fasta")

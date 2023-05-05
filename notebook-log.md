@@ -69,7 +69,7 @@ to sample starting trees in order to not get stuck in local optima.
 IQtree is also very accessable and easy to download and use.
 https://academic.oup.com/mbe/article/37/5/1530/5721363?login=false
 
-IQtree was downloaded from
+IQtree was downloaded from http://www.iqtree.org/
 IQtree folder moved to software folder
 
 I input my data labeled "Dioon_Data_GU_ALIGNED_MAFFT.fasta" and
@@ -87,6 +87,7 @@ Output files moved and saved in Botany563_Phylo_Project
 
 ML Trees visualized using iTOL for a more clean and clear tree visual.
 NEWICK format copied from treefile and used in the web application iTOL.
+https://itol.embl.de/
 
 # Distance Inference 
 
@@ -129,9 +130,7 @@ plot(DDMUTree, cex=.3)
 title("Dioon Tree with MUSCLE")
 
 R Markdown file saved to Botany563_Phylo_Project, Trees saved from R
-Markdown in Botany_Phylo_Project and changed from NEWICK format using
-web application iTOL. https://itol.embl.de/
-
+Markdown in Botany_Phylo_Project. 
 
 # Homework Commits
 
